@@ -69,7 +69,25 @@
         },
         {
             "views": [
+              {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
                 {
+                    "text": "June 28, 2026",
+                    "class": "DepictionTableTextView",
+                    "title": "0.0.5"
+                },
+                {
+                    "markdown": "- Added stronger CoreLocation hooks.
+- Spoofed locations now include realistic timestamp, altitude, accuracy, speed, and course.
+- Added drift movement with configurable radius in meters, clamped to 1m-100m.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },  
+              {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
